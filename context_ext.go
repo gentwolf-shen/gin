@@ -5,7 +5,12 @@ import (
 )
 
 func (c *Context) BindRequest(obj interface{}) error {
-	if err := c.MustBindWith(obj, binding.Simple); err != nil {
+	m := make(map[string][]string)
+	for _, v := range c.Params {
+		m[v.Key] = []string{v.Value}
+	}
+
+	if err := binding.Simple.BindExt(c.Request, obj, m); err != nil {
 		return err
 	}
 
