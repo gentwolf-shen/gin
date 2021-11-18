@@ -1,4 +1,4 @@
-module github.com/gentwolf-shen/gin
+module github.com/gentwolf-shen/gin-boost
 
 go 1.17
 
