@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gentwolf-shen/gin/binding"
+	"github.com/gentwolf-shen/gin-boost/binding"
 	"github.com/stretchr/testify/assert"
 )
 

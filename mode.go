@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/gentwolf-shen/gin/binding"
+	"github.com/gentwolf-shen/gin-boost/binding"
 )
 
 // EnvGinMode indicates environment name for gin mode.

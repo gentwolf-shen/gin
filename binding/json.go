@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/gentwolf-shen/gin/internal/json"
+	"github.com/gentwolf-shen/gin-boost/internal/json"
 )
 
 // EnableDecoderUseNumber is used to call the UseNumber method on the JSON

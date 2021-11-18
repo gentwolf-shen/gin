@@ -15,8 +15,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gentwolf-shen/gin/internal/bytesconv"
-	"github.com/gentwolf-shen/gin/render"
+	"github.com/gentwolf-shen/gin-boost/internal/bytesconv"
+	"github.com/gentwolf-shen/gin-boost/render"
 )
 
 const defaultMultipartMemory = 32 << 20 // 32 MB

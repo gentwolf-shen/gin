@@ -1,4 +1,4 @@
-module github.com/gin-gonic/gin
+module github.com/gentwolf-shen/gin
 
 go 1.17
 

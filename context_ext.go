@@ -1,7 +1,7 @@
 package gin
 
 import (
-	"github.com/gentwolf-shen/gin/binding"
+	"github.com/gentwolf-shen/gin-boost/binding"
 )
 
 func (c *Context) BindRequest(obj interface{}) error {

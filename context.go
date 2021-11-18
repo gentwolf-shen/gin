@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/gin-contrib/sse"
-	"github.com/gentwolf-shen/gin/binding"
-	"github.com/gentwolf-shen/gin/render"
+	"github.com/gentwolf-shen/gin-boost/binding"
+	"github.com/gentwolf-shen/gin-boost/render"
 )
 
 // Content-Type MIME of the most common data formats.
